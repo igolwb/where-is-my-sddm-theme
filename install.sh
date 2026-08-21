@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THEME_SOURCE=https://github.com/stepanzubkov/where-is-my-sddm-theme.git
+THEME_SOURCE=https://github.com/igolwb/where-is-my-sddm-theme.git
 if [[ -n $USE_QT5 ]]; then
     THEME_DIR=where_is_my_sddm_theme_qt5
 else
@@ -19,7 +19,7 @@ if [[ -z $THEME_DIR ]]; then
     exit 1
 fi
 
-if [[ ! -d $SDDM_THEMES_DIR ]]; then 
+if [[ ! -d $SDDM_THEMES_DIR ]]; then
     echo -e "\e[31;02m$SDDM_THEMES_DIR doesn't exist! Please, create it manually or edit SDDM_THEMES_DIR variable"
     exit 1
 fi

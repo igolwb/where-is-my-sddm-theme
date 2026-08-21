@@ -308,11 +308,11 @@ Rectangle {
             id: username
             text: currentUsername
             visible: config.boolValue("showUsersByDefault")
-            width: mainFrame.width/2.5/48*usersFontSize
+            width: mainFrame.width/4.0/48*usersFontSize
             anchors {
                 horizontalCenter: parent.horizontalCenter
                 bottom: passwordInput.top
-                bottomMargin: 40
+                bottomMargin: 20
             }
             onPrevClicked: {
                 usersCycleSelectPrev();
