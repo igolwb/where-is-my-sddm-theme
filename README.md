@@ -19,6 +19,13 @@ cp example_configurations/tree.conf theme.conf
 cp example_configurations/tree.png tree.png
 ```
 
+# Fork installation
+```shell
+git clone https://github.com/igolwb/where-is-my-sddm-theme.git && 
+cd where-is-my-sddm-theme && 
+./install.sh
+```
+
 | | |
 | --- |--- |
 | Classic (`where_is_my_sddm_theme/theme.conf`) | Classic, no cursor (`where_is_my_sddm_theme/example_configurations/classic_nocursor.conf`) |
