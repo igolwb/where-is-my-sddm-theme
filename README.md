@@ -23,7 +23,7 @@ cp example_configurations/tree.png tree.png
 ```shell
 git clone https://github.com/igolwb/where-is-my-sddm-theme.git && 
 cd where-is-my-sddm-theme && 
-./install.sh
+sudo ./install.sh current
 ```
 
 | | |
